@@ -23,9 +23,9 @@ pip install -i https://test.pypi.org/simple/hataripy
 
 Link
 -----------------------------------------------
-Hataripy site: [http://modflowpy.github.io/hataripydoc/](http://modflowpy.github.io/hataripydoc/)
+Hataripy site: [https://github.com/hatarilabs/hataripy](https://github.com/hatarilabs/hataripy)
 
-Flopy code documentation is available at [http://modflowpy.github.io/flopypydoc/](http://modflowpy.github.io/flopypydoc/)
+Flopy site [https://github.com/modflowpy/flopy](https://github.com/modflowpy/flopy)
 
 
 Getting Started
