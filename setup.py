@@ -11,7 +11,7 @@ setuptools.setup(
     description="An unofficial version of USGS Flopy that creates VTK",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/hatarilabs/hataripy",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
