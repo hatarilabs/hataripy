@@ -1,0 +1,3 @@
+include hataripy/export/longnames.json
+include hataripy/export/unitsformat.json
+include hataripy/mf6/data/dfn/*.dfn
