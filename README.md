@@ -1,11 +1,5 @@
 <img src="https://images.squarespace-cdn.com/content/v1/58c95854c534a56689231265/1571418050553-F87MZCX17GDLDWW4SZCE/ke17ZwdGBToddI8pDm48kKvryBMD-s2r8Pv086kJRRIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcN_mEHA4JpnSJ3dQYhueAobPiP7s_keov7WGkJAt2s1YGm3B8OM-YHGRgiLl8h7Jx/HeadEquipotencialsandModelDrains.png?format=1000w" alt="hataripy3" style="width:50;height:20">
 
-### Version 3.2.13 &mdash; release candidate
-[![Build Status](https://travis-ci.org/modflowpy/hataripy.svg?branch=develop)](https://travis-ci.org/modflowpy/hataripy)
-[![PyPI Version](https://img.shields.io/pypi/v/hataripy.png)](https://pypi.python.org/pypi/hataripy)
-[![Coverage Status](https://coveralls.io/repos/github/modflowpy/hataripy/badge.svg?branch=develop)](https://coveralls.io/github/modflowpy/hataripy?branch=develop)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b23a5edd021b4aa19e947545ab49e577)](https://www.codacy.com/app/jdhughes-usgs/hataripy?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=modflowpy/hataripy&amp;utm_campaign=Badge_Grade)
-
 Introduction
 -----------------------------------------------
 
@@ -35,6 +29,7 @@ Flopy code documentation is available at [http://modflowpy.github.io/flopypydoc/
 
 Getting Started
 -----------------------------------------------
+In order to do this code, please download the files from this link: https://www.hatarilabs.com/s/intruductiontoHataripy.rar, uncompress them under your “Documents” folder and create a new notebook of the “Scripts” folder. The script will locate the model files and generate the VTU files on the specified address. A description of the code can be seen on this video: https://youtu.be/y0o2pdjcLV0.
 
 ### Import packages define paths and load model
 
@@ -107,3 +102,5 @@ vtkObject.waterTable('waterTable.vtu',smooth=True)
     Removing existing vtk file: waterTable.vtu
     Writing vtk file: waterTable.vtu
     Number of point is 25592, Number of cells is 6398
+
+Processing of the VTKs in Paraview can be seen on this video:https://youtu.be/jy3qr4ht6bA
