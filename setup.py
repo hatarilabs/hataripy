@@ -1,11 +1,11 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="hataripy",
-    version="0.0.7",
+    version="0.0.8",
     author="Saul Montoya",
     author_email="saulmontoya@hatarilabs.com",
     description="An unofficial version of USGS Flopy that creates VTK",
